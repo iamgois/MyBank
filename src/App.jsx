@@ -4,9 +4,10 @@ import InsertValue from './components/InsertValue'
 
 export default function App() {
   return (
-    <div className='h-screen bg-violet-500 flex flex-col items-center justify-center'>
+    <div className='h-screen bg-violet-500 flex flex-col items-center justify-between'>
       <CurrentValue />
       <InsertValue />
+      <p className='text-white mb-2'>Created by @ Thiago Gois</p>
     </div>
   )
 }
